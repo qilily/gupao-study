@@ -1,4 +1,4 @@
-package singleton;
+package singleton.hungry;
 
 /**
  * 饿汉单例，
@@ -14,11 +14,11 @@ package singleton;
  */
 public class HungrySingleton {
 
-    private static HungrySingleton singleton = new HungrySingleton();
+    private static HungrySingleton SINGLETON = new HungrySingleton();
 
     private HungrySingleton() {}
 
     public static HungrySingleton getInstance() {
-        return singleton;
+        return SINGLETON;
     }
 }
