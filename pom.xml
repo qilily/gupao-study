@@ -8,10 +8,6 @@
   <artifactId>gupao-study</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>Chapter1-1 - Factory Pattern</module>
-    <module><![CDATA[Chapter1-4 - Delegate Pattern & Strategy Pattern]]></module>
-  </modules>
 
   <name>gupao-study</name>
   <!-- FIXME change it to the project's website -->
